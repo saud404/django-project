@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 #SECRET_KEY = 'ds=vomxu&qjc)km817gsr*m%!r^30kr)a)p%y(5f@crf8l$@ve'
 SECRET_KEY = '136af4fba63466d2e6f2476939366ff05866406490c7c8d4'
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['mldjangoapp.herokuapp.com']
 

@@ -5,8 +5,7 @@ from django.contrib.auth.models import User
 from django.http import HttpResponse
 from .models import Post
 
-# Create your views here.
-
+#
 
 def home(request):
     context = {
@@ -74,3 +73,6 @@ class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
 
 def about(request):
     return render(request, 'blog/about.html', {'title': 'About'})
+
+def index(request):
+    return render(request, 'blog/index.html', {'title': 'Index'})
