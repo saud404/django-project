@@ -135,7 +135,7 @@ EMAIL_POSRT = 587
 EMAIL_USE_TLS = True
 #EMAIL_HOST_USER = os.environ.get('EMAIL_USER')
 #EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
-EMAIL_HOST_USER = 'saud.ur.rehman1@gmail.com'
-EMAIL_HOST_PASSWORD = 'saud1986rehman'
+EMAIL_HOST_USER = 'saud.123451@gmail.com'
+EMAIL_HOST_PASSWORD = '123456'
 
 django_heroku.settings(locals())
